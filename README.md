@@ -3,10 +3,13 @@ launch4j
 
 a simple Laungh4j plugin
 
-Runs the launch4j after the project is packaged to create an exe.
+Runs the launch4j at the package phase to create an exe.
 The properties of the launch4j are provided through the launch4j's xml configuration file
 
-In order to use it add the following in the pom.xml
+In order to use it 
+1.clone this repo
+2.Do a mvn install
+3 add the following in your project' s pom.xml (be sure do add it after any plugin that is configured to run in the package phase as they run in order they are declared in the pom.xml)
 ```
 <build>
 	<plugins>
