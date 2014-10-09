@@ -1,7 +1,7 @@
 launch4j
 ========
 
-a simple Launch4j plugin
+a simple Launch4j plugin for Eclipse
 
 Runs the launch4j at the package phase to create an exe.
 The properties of the launch4j are provided through the launch4j's xml configuration file
